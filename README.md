@@ -1,3 +1,6 @@
+# my-leet-vscode-ext
+To use the CPH (Competitive Programming Helper) vsCode extension with LeetCode problems, enabling automated fetching of problem test cases and running code against them
+
 # CPH VS Code Extension (LeetCode)
 
 CPH Leetcode is a Visual Studio Code extension that simplifies competitive programming by bringing Leetcode functionalities directly to your workspace. With streamlined workflows for problem-solving, fetching test cases, and running solutions, this extension empowers you to focus on coding without distractions.
