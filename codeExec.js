@@ -84,8 +84,6 @@ async function runCodeCpp(userSolutionFile, executableFile, problemFolderPath) {
         console.log(inputContent);
         console.log(expectedOutput);
         
-        
-
         console.log(`Running test case ${testCaseNumber}...`);
 
         const child = spawn(executableFile);

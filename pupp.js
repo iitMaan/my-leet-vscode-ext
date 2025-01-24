@@ -1,3 +1,5 @@
+const puppeteer = require('puppeteer')
+
 function returnClean(input) {
     input += ",";
     let cleanInput = [];
@@ -79,8 +81,6 @@ function* flattenList(nestedList) {
         }
     }
 }
-
-const puppeteer = require('puppeteer')
 
 async function pupp(url){
 
