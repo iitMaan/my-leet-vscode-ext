@@ -10,28 +10,6 @@ function formatName(str){
 	return str.toLowerCase().replace(/\s+/g, '-')
 }
 
-/*
-
-/: for opening and closing slashes
-
-\s: matches any whitespace character.
-
-	Whitespace characters include:
-	Regular spaces ( )
-	Tabs (\t)
-	Newlines (\n)
-	Carriage returns (\r)
-	Vertical tabs (\v)
-	Form feeds (\f)
-
-+: 
-A quantifier that means "one or more occurrences" of the preceding pattern (\s in this case).
-
-g:
-The global flag ensures that the regex does not stop after finding the first match. It applies the pattern to the entire string.
-
-*/
-
 function getLanguage(filePath){
 	const extension = path.extname(filePath).toLowerCase();
 
